@@ -31,7 +31,7 @@ enhanced_rnd_assistant/
 └── main.py               # Entry point
 ```
 
-## 📦 Installation
+##  Installation
 
 1. **Clone the repository**
 ```bash
@@ -60,7 +60,7 @@ COLLECTION_NAME=product_collection
   - `like`, `comment`, `share`, `platform`, `name_store`
   - `description_vector`, `image_vector` (optional)
 
-## 🚀 Usage
+## Usage
 
 ### Interactive Mode (Default)
 ```bash
@@ -128,7 +128,7 @@ EMBEDDING_MODEL=text-embedding-ada-002
 TOP_K=10
 ```
 
-## 🏛️ Agent Architecture
+## Agent Architecture
 
 ### Base Agent
 - Common functionality for all agents
@@ -142,14 +142,14 @@ TOP_K=10
 - **Analysis Agents**: Benchmark, Market Gap, Idea Verification, Audience Volume
 - **Response Generator**: Creates formatted responses
 
-## 📊 Data Flow
+## Data Flow
 
 1. **Query Classification** → Determine analysis type
 2. **Search Execution** → Find relevant products
 3. **Analysis Processing** → Apply specialized analysis
 4. **Response Generation** → Format final answer
 
-## 🔍 Search Features
+## Search Features
 
 ### Vector Search
 - Text embedding with OpenAI models
