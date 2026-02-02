@@ -109,7 +109,7 @@ python main.py async       # Run async interactive mode
 - `debug` - Toggle debug mode
 - `quit` - Exit the application
 
-## 🔧 Configuration
+## Configuration
 
 ### Main Configuration (config/settings.py)
 - Milvus connection settings
